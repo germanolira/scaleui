@@ -1,0 +1,145 @@
+/*!
+ * ScaleUI v1.0.0 (https://www.npmjs.com/package/scaleui)
+ * Copyright 2020-2020 The ScaleUI Authors
+ * Copyright 2020-2020 Nysa Team, Inc.
+ * Licensed under MIT (https://github.com/germanolira/scaleui/blob/master/LICENSE)
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Inter');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+:root {
+    --blue: #05f;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+
+body {
+    font-family: Helvetica, sans-serif, Arial;
+}
+
+.blue-button {
+	background-color:#0055ff;
+	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:100;
+	padding:16px 31px;
+	text-decoration:none;
+}
+.blue-button:hover {
+	background-color:#0055ff;
+}
+.blue-button:active {
+	position:relative;
+	top:1px;
+}
+
+.green-button {
+	background-color:#0efb71;
+	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:100;
+	padding:16px 31px;
+	text-decoration:none;
+}
+.green-button:hover {
+	background-color:#0efb71;
+}
+.green-button:active {
+	position:relative;
+	top:1px;
+}
+
+.darkviolet-button {
+	background-color:#9400D3;
+	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:100;
+	padding:16px 31px;
+	text-decoration:none;
+}
+.darkviolet-button:hover {
+	background-color:#9400D3;
+}
+.darkviolet-button:active {
+	position:relative;
+	top:1px;
+}
+
+.aqua-button {
+	background-color:#00FFFF;
+	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:100;
+	padding:16px 31px;
+	text-decoration:none;
+}
+.aqua-button:hover {
+	background-color:#00FFFF;
+}
+.aqua-button:active {
+	position:relative;
+	top:1px;
+}
+
+.dark-button {
+	background-color:#000000;
+	border-radius:5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:100;
+	padding:16px 31px;
+	text-decoration:none;
+}
+.dark-button:hover {
+	background-color:#000000;
+}
+.dark-button:active {
+	position:relative;
+	top:1px;
+}
