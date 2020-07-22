@@ -1,6 +1,6 @@
 {
     "name": "scaleui",
-    "version": "0.0.1.1",
+    "version": "0.0.2",
     "description": "A beautiful CSS Framework for Developers",
     "main": "index.js",
     "scripts": {
